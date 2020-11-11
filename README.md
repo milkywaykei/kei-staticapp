@@ -79,7 +79,7 @@ All **pages** are kept in the `src/njk/` folder. Each `.njk` file (including tho
 
 This project includes the example `src/njk/index.njk`, which is the homepage of the website. It _extends_ `src/njk/_templates/base.njk`. Using the _block_ and _extend_ features allows you to worry about only main content of the page, as it inherits the nav and other framework from the base template. This example includes some loops to build content from the example library and bookstores data, described in detail below.
 
-To create a new webpage, just add a new file in `src/njk/` with the `.njk` extension. You'll want to _extend_ the `_templates/base.njk` template and put your content inside the `{% block content %}{% endblock %}` block.
+To create a new webpage, just add a new file in `src/njk/` with the `.njk` extension. You'll want to _extend_ the `_templates/base.njk` template and put your content inside the `{% block content %}{% endblock %}` .
 
 ### Deployment
 
